@@ -1,9 +1,9 @@
 /* IMPORTANT: class must not be public. */
 
 /*
- * uncomment this if you want to read input.
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+PE: 4 Write a program using a loop to print the following 
+output. 1 2 2 3 3 3 4 4 4 4 5 5 5 5 5 6 6 6 6 6 6 . . . nth iteration.  
+Input: 5  Output : 1 2 2 3 3 3 4 4 4 4 5 5 5 5 5 
 */
 import java.util.*;
 
