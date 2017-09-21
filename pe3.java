@@ -34,10 +34,16 @@ class Pe3 {
             if("aeiou".indexOf(Character.toLowerCase(word.charAt(i))) >= 0 ){
                 System.out.print("Vowel ");
             }
+            else if("0123456789".indexOf(Character.toLowerCase(word.charAt(i))) >= 0 ){
+                System.err.println("Error: integer entered.");
+                // System.out.println("Error: integer entered ");
+                System.exit(1);
+            }
             else{
                 System.out.print("Consonent ");
             }
         }
 
     }
+}
 }
