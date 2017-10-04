@@ -2,7 +2,7 @@
 import java.util.*;
 
 
-class pe6 {
+class Pe6 {
 	public static void print_set(Set<String> set){
 		for(String s : set){
         	System.out.println(s);

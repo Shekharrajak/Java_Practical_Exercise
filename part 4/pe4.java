@@ -49,7 +49,7 @@ class sortByAge implements Comparator<Student>{
 	}
 }
 
-class pe4 {
+class Pe4 {
     public static void main(String args[] ) {
 
         ArrayList<Student> al = new ArrayList<Student>();

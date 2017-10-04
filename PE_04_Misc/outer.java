@@ -2,7 +2,7 @@
 import java.util.*;
 
 // pe 2
-class outer {
+class Outer {
     public static Inner getInnerObject(){
         Inner ret = new Inner();
         return ret;
@@ -13,7 +13,7 @@ class outer {
         }
     }
     public static void main(String args[] )  {
-        outer o = new outer();
+        outer o = new Outer();
         o.getInnerObject();
     }
 }

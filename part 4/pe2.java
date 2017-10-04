@@ -5,7 +5,7 @@ import java.util.Map;
 import  java.util.regex.Pattern;
 import  java.util.regex.Matcher;
 
-class pe2 {
+class Pe2 {
     public static void main(String args[] ) {
         String str = "one one -one___two,,three,one @three*one?two";
 

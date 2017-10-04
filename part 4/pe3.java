@@ -4,7 +4,7 @@ import java.util.*;
 import  java.util.regex.Pattern;
 import  java.util.regex.Matcher;
 
-class pe3 {
+class Pe3 {
     public static void main(String args[] ) {
         String arr[] = {"a","b","c","d","a","c","c"};
         ArrayList<String> al = new ArrayList<String>(Arrays.asList(arr));

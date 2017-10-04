@@ -1,6 +1,6 @@
 import java.util.*;   
 
-public class pe7 {   
+public class Pe7 {   
 	public static void main(String[] args) {    
 		ArrayList<String> c1= new ArrayList<String>(); 
         c1.add("Java");           

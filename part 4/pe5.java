@@ -2,12 +2,13 @@
 import java.util.*;
 
 
-class pe5 {
+class Pe5 {
 	public static void print_map(HashMap<String, String> hm){
 		for(Map.Entry<String , String> ent : hm.entrySet()){
         	System.out.println(ent.getKey() + " : " + ent.getValue());
         }
 	}
+	
     public static void main(String args[] ) {
 
         HashMap<String, String> hm = new HashMap<String, String>();
