@@ -12,8 +12,10 @@ PE 1: Write a program which accepts a number as input and check
 */
 
 import java.util.*;
+import org.apache.log4j.Logger;
 
 class Pe1{
+        final static Logger logger = Logger.getLogger(Pe1.class);
 
     public static boolean palindrom_check(String str){
         return str.equals(new StringBuilder(str).reverse().toString());
@@ -30,9 +32,11 @@ class Pe1{
         return 0;
     }
     public static void main(String ars[]){
+
         System.out.println("hello..");
         Scanner sc = new Scanner(System.in);
         String str = sc.next("Enter the string to check palindrom: ");
+        logger.error("Sorry, something wrong!");
         if(palindrom_check(str)){
             switch(check_twenty_five(str)){
                 case 0: System.out.println("Number is palindrom and equal to 25");break;
